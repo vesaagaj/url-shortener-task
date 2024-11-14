@@ -1,0 +1,61 @@
+/* Center the form within the right section of the page */
+.right-side {
+  display: flex;
+  justify-content: left; 
+  align-items: flex-start; 
+  height: 100vh; 
+  padding: 20px;
+}
+
+.url-shortener-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #f4f4f4 !important;
+  width: 100%; 
+  max-width: 600px; 
+  padding: 20px;
+  margin-top: 0; 
+}
+
+.url-shortener-form h1 {
+  text-align:center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #080000;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 10px; 
+}
+
+.url-shortener-form input,
+.url-shortener-form select {
+  padding: 10px;
+  width: 48%; 
+  border-radius: 0px !important;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.url-shortener-form button {
+  padding: 10px 20px;
+  background-color: #6a037c;
+  color: white;
+  border: none;
+  border-radius: 0px !important;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 30%; 
+  font-size: 16px;
+  align-self: flex-start;
+}
+
+.url-shortener-form button:hover {
+  background-color: #6a037c;
+}
